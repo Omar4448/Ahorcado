@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="marcador">
+        <h3 id="Pj1">Puntos de </h3>
+        <h3 id="Pj2">Puntos de </h3>
+    </div>
+
+    <div id="?">
+        <h2 id="TP"></h2>
+        <b>Escribe una palabra, minimamente con 5 letras</b>
+        <br>
+        <input type="text" id="Palabra">
+        <button onclick="Esconder()">¡¡Listo!!</button>
+    </div>
+
+    <div id="Respuesta">
+        <h2 id="TR">Turno para responder de </h2>
+        <h1 id="palabra_secreta"></h1>
+        <b>Descubre la palabra secreta</b>
+        <br>
+        <input type="text" id="respuestaI">
+        <button id="Enviar" onclick="Comprobar()">Enviar</button>
+    </div>
+
+    <script src="ahorcado.js"></script>
+</body>
+
+</html>

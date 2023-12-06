@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-color: aquamarine;
+}
+.tarjeta{
+    background-color: rgb(27, 159, 139);
+    margin: 20px auto;
+    width: 50%;
+    border-radius:20px;
+    
+}
+button{
+background-color: rgb(128, 246, 246);
+}
+h3{
+    color: rgb(0, 0, 255);
+}
+#palabra_secreta{
+    letter-spacing:5px ;
+}
+#Respuesta{
+    visibility: hidden;
+}
